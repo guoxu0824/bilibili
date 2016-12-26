@@ -1,0 +1,43 @@
+.bili-footer-bar {
+  clear: both;
+  width: 100%;
+  background: #eee;
+  padding: 10px;
+  box-sizing: border-box; }
+  .bili-footer-bar .change {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: -webkit-box; }
+    .bili-footer-bar .change .changeItem {
+      -webkit-box-flex: 1;
+      display: -webkit-box;
+      border-right: 1px solid #ccc; }
+      .bili-footer-bar .change .changeItem a {
+        -webkit-box-flex: 1;
+        display: block;
+        text-align: center; }
+        .bili-footer-bar .change .changeItem a .icon {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background: url(../img/position3.png) no-repeat;
+          background-size: 360px auto; }
+          .bili-footer-bar .change .changeItem a .icon.icon-computer {
+            background-position: -190px -5px; }
+          .bili-footer-bar .change .changeItem a .icon.icon-phone {
+            background-position: -190px -50px; }
+          .bili-footer-bar .change .changeItem a .icon.icon-top {
+            background-position: -190px -95px; }
+        .bili-footer-bar .change .changeItem a span {
+          -webkit-box-flex: 1;
+          color: #666;
+          font-weight: normal; }
+      .bili-footer-bar .change .changeItem.top {
+        border: none; }
+  .bili-footer-bar p {
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    color: #999; }
+
+/*# sourceMappingURL=footer.css.map */

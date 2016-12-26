@@ -1,0 +1,79 @@
+.bili-index{
+	width:100%;
+	.bili-content-banner{
+		width:100%;
+		overflow:hidden;
+		.pic-box{
+			img{
+				float:left;
+			}
+		}
+		
+	}
+	.bili-content-main{
+		background:#f4f4f4;
+		overflow:hidden;
+		.main-type-box{
+			margin-top:12px;
+			background:#fff;
+			padding:0 10px;
+			box-sizing:border-box;
+			.icon{
+				background:url("../img/position2.png") no-repeat;
+				background-size:30px auto;
+				display:block;
+				width:20px;
+				height:20px;
+				&.icon-hot{
+					background-position:-5px -214px;
+				}
+				&.icon-ranking{
+					background-position:-5px -65px;
+				}
+				&.icon-play{
+					background-position:-5px -422px;
+				}
+				&.icon-danmu{
+					background-position:-5px -442px;
+				}
+				&.icon-live{
+					background-position:-5px -154px;
+				}
+				&.icon-arrow{
+					background-position:-5px -394px;
+				}
+				&.icon-bangumi{
+					background-position:-5px -365px;
+				}
+				&.icon-douga{
+					background-position:-5px -305px;
+				}
+			}
+			header{
+				display:-webkit-box;
+				-webkit-box-pack:justify;
+				height:44px;
+				div{
+					font-size:14px;
+					display:-webkit-box;
+					-webkit-box-pack:center;
+					-webkit-box-align:center;
+					span{
+						padding:0 5px;
+						display:block;
+					}
+					&.news-link{
+						span{
+							color:#ffc133;
+						}
+					}
+					&.live-more{
+						span{
+							color:#999;
+						}
+					}
+				}
+			}
+		}
+	}
+}

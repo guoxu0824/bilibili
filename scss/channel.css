@@ -1,0 +1,68 @@
+.bili-channel {
+  width: 100%;
+  background: #eee;
+  height: 100%;
+  overflow: hidden;
+  padding: 20px 0; }
+  .bili-channel .channel-nav {
+    width: 100%; }
+    .bili-channel .channel-nav dl {
+      float: left;
+      width: 33.33333%;
+      text-align: center;
+      margin: 10px 0; }
+      .bili-channel .channel-nav dl dt {
+        width: 100%; }
+        .bili-channel .channel-nav dl dt .icon {
+          position: relative;
+          margin: 0 auto;
+          display: block;
+          width: 70px;
+          height: 70px;
+          background: url("../img/position1.png") no-repeat;
+          background-size: 274px auto; }
+          .bili-channel .channel-nav dl dt .icon.icon-c1 {
+            background-position: -137px 0; }
+            .bili-channel .channel-nav dl dt .icon.icon-c1 span {
+              display: none; }
+          .bili-channel .channel-nav dl dt .icon.icon-c2 {
+            background-position: -205px -136px; }
+          .bili-channel .channel-nav dl dt .icon.icon-c3 {
+            background-position: -205px 0; }
+          .bili-channel .channel-nav dl dt .icon.icon-c4 {
+            background-position: 0 -68px; }
+          .bili-channel .channel-nav dl dt .icon.icon-c5 {
+            background-position: -205px -68px; }
+          .bili-channel .channel-nav dl dt .icon.icon-c6 {
+            background-position: 0 -136px; }
+          .bili-channel .channel-nav dl dt .icon.icon-c7 {
+            background-position: -68px 0; }
+          .bili-channel .channel-nav dl dt .icon.icon-c8 {
+            background: url("../img/life.png") no-repeat;
+            background-size: 68px auto; }
+          .bili-channel .channel-nav dl dt .icon.icon-c9 {
+            background-position: -136px -68px; }
+          .bili-channel .channel-nav dl dt .icon.icon-c10 {
+            background: url("../img/happy.png") no-repeat;
+            background-size: 68px auto; }
+          .bili-channel .channel-nav dl dt .icon.icon-c11 {
+            background-position: -68px -68px; }
+          .bili-channel .channel-nav dl dt .icon.icon-c12 {
+            background-position: 0 0; }
+          .bili-channel .channel-nav dl dt .icon.icon-c13 {
+            background-position: -68px -136px; }
+          .bili-channel .channel-nav dl dt .icon.icon-c14 {
+            background: url("../img/ad.png") no-repeat;
+            background-size: 68px auto; }
+          .bili-channel .channel-nav dl dt .icon span {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0 5px;
+            height: 20px;
+            line-height: 20px;
+            background: #ccc;
+            color: white;
+            border-radius: 10px; }
+
+/*# sourceMappingURL=channel.css.map */

@@ -1,0 +1,55 @@
+.bili-index {
+  width: 100%; }
+  .bili-index .bili-content-banner {
+    width: 100%;
+    overflow: hidden; }
+    .bili-index .bili-content-banner .pic-box img {
+      float: left; }
+  .bili-index .bili-content-main {
+    background: #f4f4f4;
+    overflow: hidden; }
+    .bili-index .bili-content-main .main-type-box {
+      margin-top: 12px;
+      background: #fff;
+      padding: 0 10px;
+      box-sizing: border-box; }
+      .bili-index .bili-content-main .main-type-box .icon {
+        background: url("../img/position2.png") no-repeat;
+        background-size: 30px auto;
+        display: block;
+        width: 20px;
+        height: 20px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-hot {
+          background-position: -5px -214px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-ranking {
+          background-position: -5px -65px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-play {
+          background-position: -5px -422px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-danmu {
+          background-position: -5px -442px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-live {
+          background-position: -5px -154px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-arrow {
+          background-position: -5px -394px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-bangumi {
+          background-position: -5px -365px; }
+        .bili-index .bili-content-main .main-type-box .icon.icon-douga {
+          background-position: -5px -305px; }
+      .bili-index .bili-content-main .main-type-box header {
+        display: -webkit-box;
+        -webkit-box-pack: justify;
+        height: 44px; }
+        .bili-index .bili-content-main .main-type-box header div {
+          font-size: 14px;
+          display: -webkit-box;
+          -webkit-box-pack: center;
+          -webkit-box-align: center; }
+          .bili-index .bili-content-main .main-type-box header div span {
+            padding: 0 5px;
+            display: block; }
+          .bili-index .bili-content-main .main-type-box header div.news-link span {
+            color: #ffc133; }
+          .bili-index .bili-content-main .main-type-box header div.live-more span {
+            color: #999; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,126 @@
+$base-color : #de698c;
+@import "header.scss";
+@import "footer.scss";
+
+.bili-list{
+	width:100%;
+	overflow:hidden;
+	dl{
+		float:left;
+		width:50%;
+		box-sizing:border-box;
+		&:nth-child(even){
+			padding-left:5px;
+			box-sizing:border-box;
+		}
+		&:nth-child(odd){
+			padding-right:5px;
+			box-sizing:border-box;
+		}
+		dt{
+			width:100%;
+			border-radius:5px;
+			overflow:hidden;
+			img{
+				display:block;
+				width:100%;
+			}
+		}
+		dd{
+			width:100%;
+			height:auto;
+			padding-bottom:10px;
+			h3{
+				font-size:12px;
+				font-weight:normal;
+				height:20px;
+				overflow:hidden;
+			}
+			.meta{
+				display:-webkit-box;
+				-webkit-box-pack:justify;
+				margin-top:5px;
+				span{
+					display:-webkit-box;
+				}
+			}
+		}
+	}
+	&.live-list{
+		dl{
+			dd{
+				display:-webkit-box;
+				height:40px;
+				.user-photo{
+					width:56px;
+					.photo{
+						width:40px;
+						height:40px;
+						display:block;
+						border-radius:40px;
+						margin:-20px 0 0 5px;
+					}
+					.look-num{
+						display:block;
+						width:90%;
+						height:20px;
+						line-height:20px;
+						background:#ccc;
+						border-radius:5px;
+						margin-top:5px;
+						text-align:center;
+						color:white;
+					}
+				}
+				.user-info{
+					-webkit-box-flex:1;
+					margin-left:5px;
+					.user-name{
+						color:#333;
+						font-size:14px;
+					}
+					.user-tro{
+						color:#999;
+						overflow:hidden;
+						text-overflow:ellipsis;
+						white-space:nowrap;
+						
+					}
+				}
+			}
+		}
+	}
+	&.bangumi-list{
+		dl{
+			width:33.33333%;
+			&:nth-child(3n-2){
+				padding:0 5px 0 0;
+			}
+			&:nth-child(3n-1){
+				padding:0 2.5px 0 2.5px;
+			}
+			&:nth-child(3n-0){
+				padding:0 0 0 5px;
+			}
+			dd{
+				h4{
+					width:100%;
+					color:#333;
+					font-size:14px;
+					text-align:center;
+					overflow:hidden;
+					text-overflow:ellipsis;
+					white-space:nowrap;
+					font-weight:normal;
+				}
+				p{
+					color:$base-color;
+					text-align:center;
+				}
+			}
+		}
+	}
+}
+.clear{
+	clear:both;
+}
